@@ -38,6 +38,18 @@ The repository is organized into several files:
 - `DQNAgent.py`: Contains the class implementation of the DQN agent.
 - `environment_setup.py`: Script to initialize and configure the CartPole-v1 environment.
 - Additional utility scripts for training and evaluating the agent.
+  ### Key Parameters and Their Impact
+
+- **Gamma (Discount Factor):** This parameter influences how much the agent prioritizes future rewards compared to immediate ones. It's crucial for tasks requiring long-term strategy.
+- **Epsilon (Exploration Rate):** Balances exploring new actions and exploiting known information to maximize rewards. It starts high to encourage exploration and decays over time to allow more exploitation.
+- **Learning Rate:** Determines how quickly the neural network adjusts its weights. A lower rate can lead to more stable but slower learning.
+
+## Conclusion and Further Reading
+
+This tutorial provides foundational knowledge and practical insights into applying DQNs in reinforcement learning environments. For a deeper dive into the theoretical aspects or more advanced applications, consider the following resources:
+- **"Playing Atari with Deep Reinforcement Learning" by Mnih et al.** - The seminal paper that introduced the concept of DQNs.
+- **"Reinforcement Learning: An Introduction" by Sutton and Barto** - A comprehensive textbook covering a wide range of RL concepts.
+- **"Human-level control through deep reinforcement learning" by Mnih et al.** - Discusses the enhancements made to DQNs that enable performance on par with human players in complex games.
 
 ## How to Use This Repository
 
@@ -51,15 +63,4 @@ pip install gym tensorflow numpy
 ### Running the Simulation:
 Execute the main script to start the training process and observe how the DQN agent learns to solve the CartPole problem.
 
-## Key Parameters and Their Impact
 
-- **Gamma (Discount Factor):** This parameter influences how much the agent prioritizes future rewards compared to immediate ones. It's crucial for tasks requiring long-term strategy.
-- **Epsilon (Exploration Rate):** Balances exploring new actions and exploiting known information to maximize rewards. It starts high to encourage exploration and decays over time to allow more exploitation.
-- **Learning Rate:** Determines how quickly the neural network adjusts its weights. A lower rate can lead to more stable but slower learning.
-
-## Conclusion and Further Reading
-
-This tutorial provides foundational knowledge and practical insights into applying DQNs in reinforcement learning environments. For a deeper dive into the theoretical aspects or more advanced applications, consider the following resources:
-- **"Playing Atari with Deep Reinforcement Learning" by Mnih et al.** - The seminal paper that introduced the concept of DQNs.
-- **"Reinforcement Learning: An Introduction" by Sutton and Barto** - A comprehensive textbook covering a wide range of RL concepts.
-- **"Human-level control through deep reinforcement learning" by Mnih et al.** - Discusses the enhancements made to DQNs that enable performance on par with human players in complex games.
