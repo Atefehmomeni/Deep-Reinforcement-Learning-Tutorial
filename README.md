@@ -47,7 +47,7 @@ The repository is organized into several files:
 ## Conclusion and Further Reading
 
 This tutorial provides foundational knowledge and practical insights into applying DQNs in reinforcement learning environments. For a deeper dive into the theoretical aspects or more advanced applications, consider the following resources:
-- **"Playing Atari with Deep Reinforcement Learning" by Mnih et al.** - The seminal paper that introduced the concept of DQNs.
+- **"Playing Atari with Deep Reinforcement Learning" by Mnih et al.** - Introduces the concept of DQNs.
 - **"Reinforcement Learning: An Introduction" by Sutton and Barto** - A comprehensive textbook covering a wide range of RL concepts.
 - **"Human-level control through deep reinforcement learning" by Mnih et al.** - Discusses the enhancements made to DQNs that enable performance on par with human players in complex games.
 
